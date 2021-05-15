@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Conservatorio Julian Aguirre</string>
+    //activity login
+    <string name="txt_nombreUsuario">Nombre</string>
+    <string name="txt_passUsuario">Contraseña</string>
+    <string name="btn_Registrar">Registrar</string>
+    <string name="btn_IniciarSesion">Iniciar Sesion</string>
+    //activity registro
+    <string name="radiobuton_alumno">Alumno</string>
+    <string name="radiobuton_docente">Docente</string>
+    <string name="txt_apellido">Apellido</string>
+    <string name="txt_documento">Documento</string>
+    <string name="txt_instrumentoRegistro">Instrumento</string>
+    //activity Alumnos
+    <string name="tv_infoUsuario">Informacion Usuario</string>
+    <string name="tv_materias">Asignaturas</string>
+    <string name="tv_calendario">Calendario</string>
+    <string name="tv_acercaDe">Acerca De</string>
+    <string name="tv_enviarReporte">Enviar Reporte</string>
+    <string name="tv_documento">Documento</string>
+    <string name="tv_configuracion">Configuracion</string>
+    <string name="tv_cerrarSesion">Cerrar Sesion</string>
+    //activity asignaturas
+    <string name="tv_docente">Docente</string>
+    <string name="tv_aula">Aula</string>
+    <string name="tv_asinatura">Asignatura</string>
+    //activity reporte
+    <string name="txt_reporte">Reporte</string>
+    <string name="btn_reporte">Enviar Reporte</string>
+    //activity configuracion
+    <string name="tv_tamanioLetra">Tamaño Letra</string>
+    <string name="tv_cambiarColor">Color de Fondo</string>
+    <string name="tv_cambiarMusica">Musica</string>
+    <string name="btn_guardarCambios">Guardar Cambios</string>
+    //activity infousuario
+    <string name="tv_editarFoto">Cambiar Foto de Perfil</string>
+    <string name="button">Editar</string>
+    //activity registrar asignaturas
+    <string name="tv_asignaturas">Ingresar Asignatura</string>
+    <string name="txt_registrarAsignatura">Asignatura</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="tv_ultimaMateria">Ultima materia registrada</string>
+    <string name="tv_materiaRegistrada">Materia</string>
+    <string name="btn_consulta">Consultar</string>
+
+
+</resources>

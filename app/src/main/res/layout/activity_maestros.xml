@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Maestros">
+    <TextView
+        android:id="@+id/tv_calendario"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tv_calendario"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_materias"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_Calendario" />
+
+    <ImageButton
+        android:id="@+id/imageButton_fotoUsuario"
+        android:layout_width="92dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/app_name"
+        android:onClick="onClick"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton_Asignaturas"
+        android:layout_width="68dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@string/app_name"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_infoUsuario"
+        app:srcCompat="@drawable/partitura" />
+
+    <ImageButton
+        android:id="@+id/imageButton_Calendario"
+        android:layout_width="68dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="36dp"
+        android:background="@color/cardview_light_background"
+        android:contentDescription="@string/app_name"
+        android:onClick="onClick"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_Asignaturas"
+        app:layout_constraintTop_toBottomOf="@+id/tv_infoUsuario"
+        app:srcCompat="@drawable/agenda" />
+
+    <TextView
+        android:id="@+id/tv_infoUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="@string/tv_infoUsuario"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_fotoUsuario" />
+
+    <TextView
+        android:id="@+id/tv_materias"
+        android:layout_width="90dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tv_materias"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_Asignaturas" />
+
+    <ImageButton
+        android:id="@+id/imageButton_AcercaDe"
+        android:layout_width="68dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@string/app_name"
+        android:onClick="onClick"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_Calendario"
+        app:layout_constraintTop_toBottomOf="@+id/tv_infoUsuario"
+        app:srcCompat="@drawable/senaldeinformacion" />
+
+    <TextView
+        android:id="@+id/tv_acercaDe"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tv_acercaDe"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_calendario"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_AcercaDe" />
+
+    <ImageButton
+        android:id="@+id/imageButton_EnviarReporte"
+        android:layout_width="68dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:contentDescription="@string/app_name"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_materias"
+        app:srcCompat="@drawable/enviareporte" />
+
+    <TextView
+        android:id="@+id/tv_enviarReporte"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/tv_enviarReporte"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_EnviarReporte" />
+
+    <ImageButton
+        android:id="@+id/imageButton_Configuracion"
+        android:layout_width="68dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:contentDescription="@string/app_name"
+        android:onClick="onClick"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_EnviarReporte"
+        app:layout_constraintTop_toBottomOf="@+id/tv_calendario"
+        app:srcCompat="@drawable/metronomo" />
+
+    <TextView
+        android:id="@+id/tv_configuracion"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/tv_configuracion"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_enviarReporte"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_Configuracion" />
+
+    <ImageButton
+        android:id="@+id/imageButton_CerrarSesion"
+        android:layout_width="68dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/app_name"
+        android:onClick="onClick"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_Configuracion"
+        app:layout_constraintTop_toBottomOf="@+id/tv_acercaDe"
+        app:srcCompat="@android:drawable/ic_lock_power_off" />
+
+    <TextView
+        android:id="@+id/tv_cerrarSesion"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/tv_cerrarSesion"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tv_configuracion"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_CerrarSesion" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
